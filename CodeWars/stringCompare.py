@@ -7,7 +7,6 @@
 # solution('abc', 'd') # returns false
 
 def solution(string, ending):
-    strLen = len(string)
     endL = len(ending)
     
     stringCompare = string[-endL:]
