@@ -5,20 +5,28 @@
 # "no" - otherwise
 
 def is_sorted_and_how(arr):
-    sortedA = arr.copy()
-    sortedD = arr.copy()
+    # sortedA = arr.copy()
+    # sortedD = arr.copy()
     
-    sortedA.sort()
-    print(arr)
-    print(sortedA)
+    # sortedA.sort()
+    # print(arr)
+    # print(sortedA)
     
-    sortedD.sort(reverse=True)
-    print(arr,sortedD)
+    # sortedD.sort(reverse=True)
+    # print(arr,sortedD)
     
-    if arr == sortedA:
-        return('yes, ascending')
-    elif arr == sortedD:
-        return('yes, descending')
+    # if arr == sortedA:
+    #     return('yes, ascending')
+    # elif arr == sortedD:
+    #     return('yes, descending')
+    # else:
+    #     return('no')
+
+    #####
+    if arr == sorted(arr):
+        return 'yes, ascending' 
+    elif arr == sorted(arr)[::-1]:
+        return 'yes, descending'
     else:
-        return('no')
+        return 'no'
     
