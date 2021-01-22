@@ -1,5 +1,5 @@
 ### LEET CODE, REMOVE DUPLICATES
-def removeDuplicates(self, nums: List[int]) -> int:
+def removeDuplicates(self, nums: List[int]):
         if len(nums) == 1:
             return 1
 
