@@ -1,9 +1,10 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        # SHOR SOLUTION nums = (list(dict.fromkeys(nums)))
+        #  nums = (list(dict.fromkeys(nums))) SHORt SOLUTION
         
 
         if len(nums) < 2: return len(nums)
+
    
         i = 0  
         for j in range(1, len(nums)):
