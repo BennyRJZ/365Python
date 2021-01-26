@@ -11,12 +11,17 @@
 # [4, 3, 2, 5] would return [4, 3, 2, 6]
 
 def up_array(arr):
-    
+    print(arr)
     for x in arr:
         if x<0:
             return None
     
+    for x in arr:
+        if x>9:
+            return None
     
+    if len(arr) == 0:
+        return None
     arrS = [str(integer) for integer in arr]
     
     arrStr = "".join(arrS)
@@ -27,5 +32,5 @@ def up_array(arr):
     
     res = [int(i) for i in str(arrInt)]
     
+    
     return(res)
-    #your code here
