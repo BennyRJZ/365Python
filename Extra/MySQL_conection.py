@@ -9,7 +9,7 @@ cnx = mysql.connector.connect(
     host="ec2-34-222-110-235.us-west-2.compute.amazonaws.com",
     port=3306,
     user="data",
-    password="khQ9--mp6LWq97iA",
+    password="######AAAA########",
     database="movielens"
 )
 
